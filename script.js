@@ -43,11 +43,11 @@ function resetContainers() {
 
   container1.innerHTML = `
     <div class="item" draggable="true" ondragstart="drag(event)">
-      <img src="image1.jpg" alt="Image 1" width="100" height="100"><br>
+      <img src="images/image1.jpg" alt="Image 1" width="100" height="100"><br>
 
     </div>
     <div class="item" draggable="true" ondragstart="drag(event)">
-      <img src="image2.jpg" alt="Image 2" width="100" height="100"><br>
+      <img src="images/image2.jpg" alt="Image 2" width="100" height="100"><br>
 
     </div>
     <div class="item" draggable="true" ondragstart="drag(event)">
@@ -55,7 +55,7 @@ function resetContainers() {
 
     </div>
     <div class="item" draggable="true" ondragstart="drag(event)">
-      <img src="image3.jpg" alt="Image 3" width="100" height="100"><br>
+      <img src="images/image3.jpg" alt="Image 3" width="100" height="100"><br>
 
     </div>
     <div class="item" draggable="true" ondragstart="drag(event)">
