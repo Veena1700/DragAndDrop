@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/2e83f09076.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="container1" class="droppable">
+      <div class="item" draggable="true" ondragstart="drag(event)">
+        <img src="image1.jpg" alt="Image 1" width="100" height="100"><br>
+      </div>
+      <div class="item" draggable="true" ondragstart="drag(event)">
+        <img src="image2.jpg" alt="Image 2" width="100" height="100"><br>
+      </div>
+      <div class="item" draggable="true" ondragstart="drag(event)">
+        <i class="fa-solid fa-star"></i><br>
+      </div>
+      <div class="item" draggable="true" ondragstart="drag(event)">
+        <img src="image3.jpg" alt="Image 3" width="100" height="100"><br>
+      </div>
+      <div class="item" draggable="true" ondragstart="drag(event)">
+        <i class="fa-solid fa-file" title="file icon"></i><br>
+      </div>
+      <!-- <div class="item" draggable="true" ondragstart="drag(event)">
+        <img src="image4.jpg" alt="Image 4" width="100" height="100"><br>
+        Text 6
+      </div> -->
+    </div>
+    
+    <div id="container2" class="droppable" ondrop="drop(event)" ondragover="allowDrop(event)">
+      Drop items here
+    </div>
+  </div>
+
+  <div class="reset-container">
+    <button class="reset-button" onclick="resetContainers()">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
